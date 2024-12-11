@@ -1,4 +1,7 @@
-nota = 7.0
+nota = 8.5
+frequencia = 80
 
-# 75%
-frequencia = 0.25 
+if nota >= 7.0 and frequencia >= 75:
+    print("Aprovado")
+else:
+    print('Reprovado')
